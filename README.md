@@ -14,7 +14,7 @@
 
 ### Better self-admitted technical debt identification with adaptive CNN.
 
-Aug 2020 | [repo](https://github.com/hil-se/Technical-Debt-Risks)
+Aug 2020 | [repo](https://github.com/hil-se/Technical-Debt-Risks#top)
 
 This project aims to improve efficiency of self-admitted technical debt identification with an adaptive CNN model.
  - Incorporate a CNN model in the framework of a human-in-the-loop self-admitted technical debt identification system.
