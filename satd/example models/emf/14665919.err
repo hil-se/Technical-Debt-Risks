@@ -1,0 +1,38 @@
+2022-04-24 14:49:44.385735: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.2
+WARNING: Logging before flag parsing goes to stderr.
+W0424 14:49:49.333790 140265604777792 __init__.py:328] Limited tf.compat.v2.summary API due to missing TensorBoard installation.
+W0424 14:49:49.430217 140265604777792 __init__.py:328] Limited tf.compat.v2.summary API due to missing TensorBoard installation.
+W0424 14:49:49.432060 140265604777792 __init__.py:328] Limited tf.compat.v2.summary API due to missing TensorBoard installation.
+W0424 14:49:49.554443 140265604777792 __init__.py:356] Limited tf.summary API due to missing TensorBoard installation.
+2022-04-24 14:58:55.802097: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-04-24 14:58:55.834735: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:5e:00.0 name: Tesla P4 computeCapability: 6.1
+coreClock: 1.1135GHz coreCount: 20 deviceMemorySize: 7.43GiB deviceMemoryBandwidth: 178.99GiB/s
+2022-04-24 14:58:55.834772: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.2
+2022-04-24 14:58:55.878902: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2022-04-24 14:58:55.900666: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2022-04-24 14:58:55.938483: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2022-04-24 14:58:55.975363: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2022-04-24 14:58:55.995738: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2022-04-24 14:58:56.056550: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2022-04-24 14:58:56.057273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2022-04-24 14:58:56.058372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:5e:00.0 name: Tesla P4 computeCapability: 6.1
+coreClock: 1.1135GHz coreCount: 20 deviceMemorySize: 7.43GiB deviceMemoryBandwidth: 178.99GiB/s
+2022-04-24 14:58:56.058402: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.2
+2022-04-24 14:58:56.058427: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2022-04-24 14:58:56.058439: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2022-04-24 14:58:56.058449: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2022-04-24 14:58:56.058460: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2022-04-24 14:58:56.058471: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2022-04-24 14:58:56.058481: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2022-04-24 14:58:56.059192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2022-04-24 14:58:56.059219: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.2
+2022-04-24 14:58:57.238236: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-04-24 14:58:57.238288: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2022-04-24 14:58:57.238296: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2022-04-24 14:58:57.239308: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6973 MB memory) -> physical GPU (device: 0, name: Tesla P4, pci bus id: 0000:5e:00.0, compute capability: 6.1)
+2022-04-24 14:58:59.285323: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2022-04-24 14:58:59.591020: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+/.autofs/tools/spack/opt/spack/linux-rhel7-skylake_avx512/gcc-8.2.0/py-scikit-learn-0.23.1-ivhyaw4ss7lvyarmy7eifmi2s7gtadig/lib/python3.8/site-packages/sklearn/utils/validation.py:68: FutureWarning: Pass classes=[0 1], y=[1 0 1 ... 0 1 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  warnings.warn("Pass {} as keyword args. From version 0.25 "
